@@ -23,3 +23,10 @@ Place userparameter_varnishbackends.conf in:
 Or copy it to the end of your Zabbix conf file. Then, just import the
 Template_Varnish_Backend.xml file to your Zabbix server, and assign it to your
 Varnish server.
+
+### Dependencies
+
+  * pyzabbix
+    ``` shell
+    pip install pyzabbix
+    ```
